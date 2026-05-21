@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1086,7 +1086,7 @@
   </div>
 </section>
 
-<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl">
+<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl" id="index-testimonials-section">
   <!-- Decorative pearl circle accent -->
   <div class="it-pearl-accent" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1099,16 +1099,13 @@
     <!-- Intro block -->
     <div class="it-intro">
       <div class="it-label-line" aria-hidden="true"></div>
-      <span class="it-eyebrow">לקוחות ממליצים</span>
-      <h2 class="it-heading">אמון, יופי, וקשר אישי</h2>
+      <p class="zappy-editable"><span class="it-eyebrow">לקוחות ממליצים</span>
+      </p><h2 class="it-heading">אמון, יופי, וקשר אישי</h2>
       <p class="it-subtext">כל תכשיט שיוצא מהסטודיו שלנו נושא עמו סיפור. אלה הם הרגעים שהלקוחות שלנו בחרו לשתף איתנו.</p>
     </div>
 
     <!-- Testimonials grid -->
-    <div class="it-grid">
-
-      <!-- Card 1 -->
-      <article class="it-card">
+    <article class="it-card">
         <div class="it-quote-mark" aria-hidden="true">“</div>
         <blockquote class="it-quote-text">
           <p>קיבלתי את הצמיד כמתנה ליום הולדתי ולא האמנתי עד כמה הוא מדויק לי. העיצוב עדין, האיכות מרגישה על היד — זה לא סתם תכשיט, זו חוויה שלמה. אני מחפשת כל הזמן תכשיטים בסביבה שלי ולא מצאתי שום דבר ברמה הזו.</p>
@@ -1121,38 +1118,6 @@
           </div>
         </footer>
       </article>
-
-      <!-- Card 2 -->
-      <article class="it-card">
-        <div class="it-quote-mark" aria-hidden="true">“</div>
-        <blockquote class="it-quote-text">
-          <p>חיפשתי מתנה מיוחדת לאמא שלי ומצאתי ב-Noami בדיוק את מה שרציתי. השירות היה אישי ומחושב, ועזרו לי לבחור עיצוב שמתאים לה בול. כשהיא פתחה את הקופסה — הדמעות אמרו הכל.</p>
-        </blockquote>
-        <footer class="it-attribution">
-          <div class="it-attr-divider" aria-hidden="true"></div>
-          <div class="it-attr-info">
-            <span class="it-attr-name">שירה ל.</span>
-            <span class="it-attr-title">ירושלים</span>
-          </div>
-        </footer>
-      </article>
-
-      <!-- Card 3 -->
-      <article class="it-card">
-        <div class="it-quote-mark" aria-hidden="true">“</div>
-        <blockquote class="it-quote-text">
-          <p>הייתי מחפשת חנות תכשיטים שאפשר לסמוך עליה — ומצאתי. האיכות יוצאת דופן, כל פריט מרגיש כמו יצירת אמנות. הסגנון שקט ומדויק, בלי יתר. אני חוזרת שוב ושוב כי אני יודעת מה אני מקבלת.</p>
-        </blockquote>
-        <footer class="it-attribution">
-          <div class="it-attr-divider" aria-hidden="true"></div>
-          <div class="it-attr-info">
-            <span class="it-attr-name">נועה ר.</span>
-            <span class="it-attr-title">חיפה</span>
-          </div>
-        </footer>
-      </article>
-
-    </div>
   </div>
 
   <!-- Bottom divider: radial fade from espresso to soft white -->
@@ -1163,15 +1128,15 @@
   </div>
 </section>
 
-<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta" dir="rtl">
+<section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta" dir="rtl" id="index-cta-section">
   <div class="index-cta-inner">
     <div class="index-cta-content">
       <div class="index-cta-gold-rule" aria-hidden="true"></div>
       <h2 class="index-cta-heading">גלו את תכשיט שמספר את הסיפור שלכם</h2>
-      <p class="index-cta-body">כל תכשיט של Noami נולד מתוך כוונה — חומרים נבחרים בקפידה, עיצוב שמכבד את מי שעוטה אותו. אם אתם מחפשים חנויות תכשיטים מהטובות ביותר או מבקשים ליצור קשר ולגלות יצירה שמדברת אליכם, אנחנו כאן בשבילכם.</p>
+      
       <div class="index-cta-actions">
-        <a href="/contact" class="index-cta-btn-primary">צרו קשר</a>
-        <a href="/about" class="index-cta-btn-ghost">קראו עלינו</a>
+        <a href="/contact" class="index-cta-btn-primary" style="color: rgb(42, 36, 31) !important;" data-element-type="button" data-element-id="btn-1779369869842-stdnpqq26" data-native-element="true">צרו קשר</a>
+        <a href="/about" class="index-cta-btn-ghost" style="color: rgb(42, 36, 31) !important;" data-element-type="button" data-element-id="btn-1779369869842-z615nrmu3" data-native-element="true">קראו עלינו</a>
       </div>
     </div>
   </div>
