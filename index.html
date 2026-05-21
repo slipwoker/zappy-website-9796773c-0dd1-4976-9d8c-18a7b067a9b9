@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1008,7 +1008,7 @@
   </div>
 </section>
 
-<section data-band-index="2" class="index-showcase-section" data-layout-spec="בית-showcase" dir="rtl">
+<section data-band-index="2" class="index-showcase-section" data-layout-spec="בית-showcase" dir="rtl" id="index-showcase-section">
   <!-- Decorative pearl circle accent -->
   <div class="showcase-pearl-accent" aria-hidden="true">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1025,10 +1025,10 @@
       <p class="showcase-subtitle">כל תכשיט נוצר מתוך כוונה — להלביש רגעים בזוהר שקט ולהפוך את היומיום לחגיגי. גלו את הקולקציות שלנו.</p>
     </header>
 
-    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="display:none">
+    <nav class="zappy-catalog-menu rtl" id="zappy-catalog-menu" dir="rtl" style="margin-top: 0px; top: 70px !important; display: none !important;">
       <div class="catalog-menu-container">
-        <a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
-        <div class="catalog-menu-categories" id="zappy-category-links">
+        <p class="zappy-editable"><a href="/products" class="catalog-menu-item catalog-menu-all">כל המוצרים</a>
+        </p><div class="catalog-menu-categories" id="zappy-category-links" dir="rtl" style="direction: rtl !important;">
           <!-- Categories will be loaded dynamically -->
         </div>
       </div>
@@ -1036,41 +1036,41 @@
   
 
     <!-- Three Panel Grid -->
-    <div class="showcase-panels">
+    <div class="showcase-panels" data-zappy-grid-align="end">
 
       <!-- Panel 1: Everyday Elegance -->
-      <article class="showcase-panel showcase-panel--side">
+      <article class="showcase-panel showcase-panel--side" data-grid-item-index="0">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Elegant everyday jewelry flat lay on soft ivory linen surface — delicate gold chain necklace, small hoop earrings, and a thin ring arranged with calm editorial styling, warm natural light, minimal and refined, luxury jewelry brand photography" width="400" height="560" src="/assets/site-index-showcase-image-1.webp" alt="תכשיטי יומיום עדינים — שרשרת זהב ועגילים על רקע בד שנהב">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Elegant everyday jewelry flat lay on soft ivory linen surface — delicate gold chain necklace, small hoop earrings, and a thin ring arranged with calm editorial styling, warm natural light, minimal and refined, luxury jewelry brand photography" width="400" height="560" src="/assets/site-index-showcase-image-1.webp" alt="תכשיטי יומיום עדינים — שרשרת זהב ועגילים על רקע בד שנהב" data-element-type="image" data-element-id="img-1779369869845-pcsewk32h" >
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
           <h3 class="showcase-panel__title">אלגנטיות של יומיום</h3>
-          <p class="showcase-panel__desc">תכשיטים עדינים שמלווים כל רגע — מהבוקר ועד הערב, בשקט ובחן.</p>
+          <p class="showcase-panel__desc" style="color: rgb(42, 36, 31) !important;">תכשיטים עדינים שמלווים כל רגע — מהבוקר ועד הערב, בשקט ובחן.</p>
         </div>
       </article>
 
       <!-- Panel 2: Occasion Pieces (center, taller) -->
-      <article class="showcase-panel showcase-panel--center">
+      <article class="showcase-panel showcase-panel--center" data-grid-item-index="1">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Statement occasion jewelry piece — a luxurious gold necklace with gemstone pendant displayed on a clean white bust or velvet stand, dramatic soft lighting, editorial luxury jewelry photography, champagne and gold tones, refined and aspirational" width="400" height="680" src="/assets/site-index-showcase-image-2.webp" alt="תכשיט מיוחד לאירועים — שרשרת זהב עם אבן חן על עמד קטיפה">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Statement occasion jewelry piece — a luxurious gold necklace with gemstone pendant displayed on a clean white bust or velvet stand, dramatic soft lighting, editorial luxury jewelry photography, champagne and gold tones, refined and aspirational" width="400" height="680" src="/assets/site-index-showcase-image-2.webp" alt="תכשיט מיוחד לאירועים — שרשרת זהב עם אבן חן על עמד קטיפה" data-element-type="image" data-element-id="img-1779369869845-5h4oyxifo" >
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
           <h3 class="showcase-panel__title">לרגעים המיוחדים</h3>
-          <p class="showcase-panel__desc">קולקציית האירועים שלנו — כי ישנם רגעים שראויים לזרוח.</p>
+          <p class="showcase-panel__desc" style="color: rgb(42, 36, 31) !important;">קולקציית האירועים שלנו — כי ישנם רגעים שראויים לזרוח.</p>
         </div>
       </article>
 
       <!-- Panel 3: Meaningful Gifts -->
-      <article class="showcase-panel showcase-panel--side">
+      <article class="showcase-panel showcase-panel--side" data-grid-item-index="2">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Jewelry gift presentation — a small elegant jewelry box tied with a satin ribbon, with a delicate gold bracelet or ring inside, soft warm light, neutral cream and gold tones, luxury gift packaging for a fine jewelry brand, intimate and warm mood" width="400" height="560" src="/assets/site-index-showcase-image-3.webp" alt="מתנת תכשיט מיוחדת — קופסת מתנה אלגנטית עם צמיד זהב עדין">
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Jewelry gift presentation — a small elegant jewelry box tied with a satin ribbon, with a delicate gold bracelet or ring inside, soft warm light, neutral cream and gold tones, luxury gift packaging for a fine jewelry brand, intimate and warm mood" width="400" height="560" src="/assets/site-index-showcase-image-3.webp" alt="מתנת תכשיט מיוחדת — קופסת מתנה אלגנטית עם צמיד זהב עדין" data-element-type="image" data-element-id="img-1779369869845-qvu27hbd5" >
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
           <h3 class="showcase-panel__title">מתנה שנשארת לנצח</h3>
-          <p class="showcase-panel__desc">תכשיט שמביאים ללב — מחווה אישית שמספרת סיפור ומשאירה חותם.</p>
+          <p class="showcase-panel__desc" style="color: rgb(42, 36, 31) !important;">תכשיט שמביאים ללב — מחווה אישית שמספרת סיפור ומשאירה חותם.</p>
         </div>
       </article>
 
@@ -1080,53 +1080,24 @@
   <!-- Bottom Divider: espresso band peeks upward -->
   <div class="showcase-divider-wrapper">
     <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,120 L0,72 C120,58 240,50 360,60 C480,70 600,82 720,78 C840,74 960,56 1080,52 C1200,48 1320,58 1440,66 L1440,120 Z" fill="#1A1209"></path>
-      <path d="M0,120 L0,88 C160,78 320,70 480,76 C640,82 800,90 960,86 C1120,82 1280,72 1440,78 L1440,120 Z" fill="#1A1209" opacity="0.6"></path>
+      <path d="M0,120 L0,72 C120,58 240,50 360,60 C480,70 600,82 720,78 C840,74 960,56 1080,52 C1200,48 1320,58 1440,66 L1440,120 Z" fill="#FAF7F3"></path>
+      <path d="M0,120 L0,88 C160,78 320,70 480,76 C640,82 800,90 960,86 C1120,82 1280,72 1440,78 L1440,120 Z" fill="#FAF7F3" opacity="0.6"></path>
     </svg>
   </div>
-</section>
+<div class="it-grid" style="display: grid; --zappy-grid-cols: repeat(2, minmax(0, 1fr)); grid-template-columns: repeat(2, minmax(0, 1fr));" data-zappy-explicit-columns="true">
 
-<section data-band-index="3" class="index-testimonials-section" data-layout-spec="בית-testimonials" dir="rtl" id="index-testimonials-section">
-  <!-- Decorative pearl circle accent -->
-  <div class="it-pearl-accent" aria-hidden="true">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="100" cy="100" r="96" stroke="#D4B896" stroke-width="1.5" opacity="0.18"></circle>
-      <circle cx="100" cy="100" r="80" stroke="#D4B896" stroke-width="0.75" opacity="0.12"></circle>
-    </svg>
-  </div>
+      <!-- Card 1 -->
+      
 
-  <div class="it-container">
-    <!-- Intro block -->
-    <div class="it-intro">
-      <div class="it-label-line" aria-hidden="true"></div>
-      <p class="zappy-editable"><span class="it-eyebrow">לקוחות ממליצים</span>
-      </p><h2 class="it-heading">אמון, יופי, וקשר אישי</h2>
-      <p class="it-subtext">כל תכשיט שיוצא מהסטודיו שלנו נושא עמו סיפור. אלה הם הרגעים שהלקוחות שלנו בחרו לשתף איתנו.</p>
-    </div>
+      <!-- Card 2 -->
+      
 
-    <!-- Testimonials grid -->
-    <article class="it-card">
-        <div class="it-quote-mark" aria-hidden="true">“</div>
-        <blockquote class="it-quote-text">
-          <p>קיבלתי את הצמיד כמתנה ליום הולדתי ולא האמנתי עד כמה הוא מדויק לי. העיצוב עדין, האיכות מרגישה על היד — זה לא סתם תכשיט, זו חוויה שלמה. אני מחפשת כל הזמן תכשיטים בסביבה שלי ולא מצאתי שום דבר ברמה הזו.</p>
-        </blockquote>
-        <footer class="it-attribution">
-          <div class="it-attr-divider" aria-hidden="true"></div>
-          <div class="it-attr-info">
-            <span class="it-attr-name">מיכל א.</span>
-            <span class="it-attr-title">תל אביב</span>
-          </div>
-        </footer>
-      </article>
-  </div>
+      <!-- Card 3 -->
+      
 
-  <!-- Bottom divider: radial fade from espresso to soft white -->
-  <div class="it-bottom-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,90 L0,45 Q150,30 300,48 T600,38 Q750,28 900,46 T1200,42 L1200,90 Z" fill="#FAF7F3"></path>
-    </svg>
-  </div>
-</section>
+    </div></section>
+
+
 
 <section data-band-index="4" class="index-cta-section" data-layout-spec="בית-cta" dir="rtl" id="index-cta-section">
   <div class="index-cta-inner">
