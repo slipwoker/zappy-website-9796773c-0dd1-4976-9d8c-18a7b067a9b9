@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "9796773c-0dd1-4976-9d8c-18a7b067a9b9";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -1041,7 +1041,7 @@
       <!-- Panel 1: Everyday Elegance -->
       <article class="showcase-panel showcase-panel--side" data-grid-item-index="0">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Elegant everyday jewelry flat lay on soft ivory linen surface — delicate gold chain necklace, small hoop earrings, and a thin ring arranged with calm editorial styling, warm natural light, minimal and refined, luxury jewelry brand photography" width="400" height="560" src="/assets/site-index-showcase-image-1.webp" alt="תכשיטי יומיום עדינים — שרשרת זהב ועגילים על רקע בד שנהב" data-element-type="image" data-element-id="img-1779369869845-pcsewk32h" >
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-1" data-context="Elegant everyday jewelry flat lay on soft ivory linen surface — delicate gold chain necklace, small hoop earrings, and a thin ring arranged with calm editorial styling, warm natural light, minimal and refined, luxury jewelry brand photography" width="400" height="560" src="/assets/site-index-showcase-image-1.webp" alt="תכשיטי יומיום עדינים — שרשרת זהב ועגילים על רקע בד שנהב" data-element-type="image" data-element-id="img-1779369869845-pcsewk32h" style="">
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
@@ -1053,7 +1053,7 @@
       <!-- Panel 2: Occasion Pieces (center, taller) -->
       <article class="showcase-panel showcase-panel--center" data-grid-item-index="1">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Statement occasion jewelry piece — a luxurious gold necklace with gemstone pendant displayed on a clean white bust or velvet stand, dramatic soft lighting, editorial luxury jewelry photography, champagne and gold tones, refined and aspirational" width="400" height="680" src="/assets/site-index-showcase-image-2.webp" alt="תכשיט מיוחד לאירועים — שרשרת זהב עם אבן חן על עמד קטיפה" data-element-type="image" data-element-id="img-1779369869845-5h4oyxifo" >
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-2" data-context="Statement occasion jewelry piece — a luxurious gold necklace with gemstone pendant displayed on a clean white bust or velvet stand, dramatic soft lighting, editorial luxury jewelry photography, champagne and gold tones, refined and aspirational" width="400" height="680" src="/assets/site-index-showcase-image-2.webp" alt="תכשיט מיוחד לאירועים — שרשרת זהב עם אבן חן על עמד קטיפה" data-element-type="image" data-element-id="img-1779369869845-5h4oyxifo" style="">
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
@@ -1065,7 +1065,7 @@
       <!-- Panel 3: Meaningful Gifts -->
       <article class="showcase-panel showcase-panel--side" data-grid-item-index="2">
         <figure class="showcase-panel__figure">
-          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Jewelry gift presentation — a small elegant jewelry box tied with a satin ribbon, with a delicate gold bracelet or ring inside, soft warm light, neutral cream and gold tones, luxury gift packaging for a fine jewelry brand, intimate and warm mood" width="400" height="560" src="/assets/site-index-showcase-image-3.webp" alt="מתנת תכשיט מיוחדת — קופסת מתנה אלגנטית עם צמיד זהב עדין" data-element-type="image" data-element-id="img-1779369869845-qvu27hbd5" >
+          <img loading="lazy" decoding="async" data-placeholder="index-showcase-image-3" data-context="Jewelry gift presentation — a small elegant jewelry box tied with a satin ribbon, with a delicate gold bracelet or ring inside, soft warm light, neutral cream and gold tones, luxury gift packaging for a fine jewelry brand, intimate and warm mood" width="400" height="560" src="/assets/site-index-showcase-image-3.webp" alt="מתנת תכשיט מיוחדת — קופסת מתנה אלגנטית עם צמיד זהב עדין" data-element-type="image" data-element-id="img-1779369869845-qvu27hbd5" style="">
         </figure>
         <div class="showcase-panel__body">
           <div class="showcase-panel__rule" aria-hidden="true"></div>
@@ -1128,11 +1128,11 @@
       <!-- Column 1: Company Info -->
       <div class="footer-col footer-brand">
         <a href="/" class="footer-logo-link">
-          <img src="/assets/noami-jewelry-logo.webp" alt="Noami" class="logo">
+          <img src="/assets/noami-jewelry-logo.webp" alt="Noami" class="logo" data-zappy-footer-image="true">
         </a>
         <p class="footer-tagline">תכשיטים בעבודת יד — כל יצירה מספרת סיפור של יופי, אומנות ורגע בלתי נשכח.</p>
         <div class="footer-badges">
-          <span class="badge"><i class="fas fa-truck"></i> משלוח חינם</span>
+          <span class="badge" style=""><i class="fas fa-truck" style="cursor: pointer;"></i>באיסוף עצמי&nbsp;</span>
           <span class="badge"><i class="fas fa-shield-alt"></i> אחריות מלאה</span>
         </div>
       </div>
@@ -1155,18 +1155,18 @@
         <div class="heading-line"></div>
         <ul class="footer-contact">
           <li>
-            <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+            <span class="contact-icon"><i class="fas fa-envelope" data-element-type="icon" data-element-id="icon-1779369869845-6p3w73cpc" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="mailto:[business_email]">[business_email]</a></span>
           </li>
           <li>
-            <span class="contact-icon"><i class="fas fa-phone"></i></span>
+            <span class="contact-icon"><i class="fas fa-phone" data-element-type="icon" data-element-id="icon-1779369869845-j418gh27h" data-icon-type="fontawesome"></i></span>
             <span class="contact-text"><a href="tel:[business_phone]">[business_phone]</a></span>
           </li>
           <li><a href="/"><span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
             <span class="contact-text">[business_address]</span></a></li>
         </ul>
         <div class="footer-hours">
-          <p class="hours-title"><i class="fas fa-clock"></i> שעות פעילות</p>
+          <p class="hours-title"><i class="fas fa-clock" data-element-type="icon" data-element-id="icon-1779369869845-o0x68e7iz" data-icon-type="fontawesome"></i> שעות פעילות</p>
           <p class="hours-row"><span>ראשון – חמישי</span><span>09:00 – 18:00</span></p>
           <p class="hours-row"><span>שישי</span><span>09:00 – 13:00</span></p>
           <p class="hours-row"><span>שבת</span><span>סגור</span></p>
@@ -1186,8 +1186,8 @@
         <div class="footer-newsletter">
           <p class="newsletter-label">הירשמו לניוזלטר</p>
           <div class="newsletter-form">
-            <input type="email" placeholder="כתובת דוא&quot;ל" aria-label="הזינו כתובת דוא&quot;ל">
-            <button type="button" aria-label="הרשמה לניוזלטר">הרשמה</button>
+            <input type="email" placeholder="כתובת דוא&quot;ל" aria-label="הזינו כתובת דוא&quot;ל" __gcruniqueid="3">
+            <button type="button" aria-label="הרשמה לניוזלטר" data-element-type="button" data-element-id="btn-1779369869842-h56niubsq" data-native-element="true">הרשמה</button>
           </div>
         </div>
       </div>
