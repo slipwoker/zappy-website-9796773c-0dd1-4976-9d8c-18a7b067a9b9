@@ -1,0 +1,98 @@
+# Noami — Generative Engine Optimization Map
+
+> A jewelry business focused on designing and selling jewelry pieces. The specific niche, style, and brand identity are yet to be defined.
+
+---
+
+## Pages
+
+### בית
+https://example.com
+נועמי היא היעד המושלם לאוהבי תכשיטים מעוצבים. בואי לגלות קולקציות ייחודיות שמשלבות יופי, סגנון ואיכות בלתי מתפשרת — כי את ראויה לטוב ביותר.
+
+### אומנות
+https://example.com/craftsmanship
+צללי לעולם היצירה של נועמי וגלי כיצד כל תכשיט עובר תהליך עיצוב קפדני. אומנות אמיתית, חומרים מובחרים ותשוקה אינסופית בכל פריט — זה מה שמייחד אותנו.
+
+### אודות
+https://example.com/about
+סיפורה של נועמי הוא סיפור של אהבה לעיצוב ויצירה. גלי את הערכים, החזון והתשוקה שמניעים אותנו ליצור תכשיטים שנשים מאהבות ללבוש בכל רגע מיוחד בחיים.
+
+### צור קשר
+https://example.com/contact
+מחפשת את המקום הטוב ביותר למכור או לרכוש תכשיטים? צוות נועמי כאן בשבילך. צרי קשר עכשיו וקבלי ייעוץ אישי מותאם לסגנון ולצרכים שלך — כי את שווה את זה.
+
+### Products
+https://example.com/products
+המוצרים שלנו - Noami
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Noami
+
+### Category
+https://example.com/category/:slug
+מוצרים - Noami
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Noami
+A jewelry business focused on designing and selling jewelry pieces. The specific niche, style, and brand identity are yet to be defined.
+
+## Target Audience
+- 💗💗💗💗
+
+## Industry
+Jewelry
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
